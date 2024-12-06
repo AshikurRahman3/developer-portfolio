@@ -1,11 +1,11 @@
 import React from 'react';
 import { FaPython, FaJsSquare, FaJava, FaNode, FaReact, FaHtml5, FaCss3Alt, FaDatabase, FaGitAlt, FaGithub } from 'react-icons/fa';
-
+import { SiMongodb, SiExpress } from "react-icons/si";
 function Skills() {
     return (
         <div name="Skills" className="skills-section p-10  rounded-lg shadow-lg ">
             <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
-            <div className="grid bg-gray-50 rounded-lg shadow-lg grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+            <div className="grid p-4 bg-gray-50 rounded-lg shadow-lg grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
                 {/* Programming Languages */}
                 <div className="skill-item text-center">
                     <FaPython className="text-4xl text-yellow-500" />
@@ -28,6 +28,18 @@ function Skills() {
                 <div className="skill-item text-center">
                     <FaReact className="text-4xl text-cyan-500" />
                     <h3 className="text-xl font-semibold mt-2">React</h3>
+                </div>
+
+                {/* MongoDB Skill */}
+                <div className="skill-item text-center">
+                    <SiMongodb className="text-4xl text-green-600" />
+                    <h3 className="text-xl font-semibold mt-2">MongoDB</h3>
+                </div>
+
+                {/* Express.js Skill */}
+                <div className="skill-item text-center">
+                    <SiExpress className="text-4xl text-gray-500" />
+                    <h3 className="text-xl font-semibold mt-2">Express.js</h3>
                 </div>
                 <div className="skill-item text-center">
                     <FaHtml5 className="text-4xl text-orange-600" />

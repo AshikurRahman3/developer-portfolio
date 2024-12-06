@@ -9,6 +9,9 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
 
+import Programming from "./components/programming";
+
+
 function App() {
   return (
     <>
@@ -17,6 +20,8 @@ function App() {
         <Home />
         <Skills />
         <Education />
+        <Programming />
+
         <PortFolio />
 
         <Contact />
