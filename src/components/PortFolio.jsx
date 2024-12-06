@@ -67,18 +67,18 @@ function Portfolio() {
         <h1 className="text-4xl font-bold text-center mb-10"></h1>
         <div>
           <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
-          <div className="grid p-20 bg-gray-50 rounded-lg shadow-lg grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 sm:p-3 bg-gray-50 rounded-lg shadow-lg">
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="border rounded-lg shadow-md p-4 flex flex-col transform transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer h-full"
+                className="border rounded-lg shadow-md p-4 flex flex-col transform transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer"
                 onClick={() => openModal(project)}
               >
                 <div>
                   {/* Image Section */}
                   <div className="relative">
                     {project.id === 4 ? (
-                      <div className="aspect-[10/22] max-h-60">
+                      <div className="aspect-[10/22] max-h-48 md:max-h-60">
                         <img
                           src={project.smallGif}
                           alt={`${project.name} Preview`}
@@ -97,18 +97,20 @@ function Portfolio() {
                   </div>
 
                   {/* Title and Description */}
-                  <h3 className="text-xl font-semibold mt-4">{project.name}</h3>
-                  <p className="text-gray-600 mt-2 flex-grow">{project.description}</p>
+                  <h3 className="text-lg md:text-xl font-semibold mt-4">{project.name}</h3>
+                  <p className="text-gray-600 text-sm md:text-base mt-2 flex-grow">
+                    {project.description}
+                  </p>
                 </div>
 
                 {/* Buttons Section */}
-                <div className="flex justify-between mt-auto pt-4 border-t border-gray-300">
+                <div className="flex flex-col sm:flex-row justify-between mt-auto pt-4 border-t border-gray-300 gap-2">
                   <button
                     onClick={(e) => {
                       handleLinkClick(e);
                       window.open(project.githubLink, "_blank");
                     }}
-                    className="bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 hover:text-white transition-all"
+                    className="bg-teal-500 text-white text-sm md:text-base py-2 px-3 md:px-4 rounded-md hover:bg-teal-600 hover:text-white transition-all"
                   >
                     View on GitHub
                   </button>
@@ -118,15 +120,17 @@ function Portfolio() {
                         handleLinkClick(e);
                         window.open(project.liveLink, "_blank");
                       }}
-                      className="bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 hover:text-white transition-all"
+                      className="bg-teal-500 text-white text-sm md:text-base py-2 px-3 md:px-4 rounded-md hover:bg-teal-600 hover:text-white transition-all"
                     >
                       View Live
                     </button>
                   )}
                 </div>
+
               </div>
             ))}
           </div>
+
         </div>
 
         {/* Modal for Large GIFs or Video */}

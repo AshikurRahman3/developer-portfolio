@@ -5,7 +5,7 @@ function Contact() {
     <div id="Contact" className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10">
       <section className="contact p-6">
         <h2 className="text-3xl font-bold text-center mb-8">Contact</h2>
-        <div className="flex justify-center space-x-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
           <div className="flex flex-col items-center">
             <h3 className="text-xl font-semibold mb-4">Email</h3>
             <a
@@ -26,7 +26,7 @@ function Contact() {
           </div>
           <div className="flex flex-col items-center">
             <h3 className="text-xl font-semibold mb-4">Social Links</h3>
-            <div className="flex space-x-4">
+            <div className="flex justify-center space-x-4">
               <a
                 href="https://github.com/AshikurRahman3"
                 target="_blank"
@@ -43,7 +43,6 @@ function Contact() {
               >
                 LinkedIn
               </a>
-
             </div>
           </div>
         </div>
