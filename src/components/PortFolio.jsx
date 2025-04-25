@@ -12,40 +12,33 @@ function Portfolio() {
   };
 
   const projects = [
+
     {
       id: 1,
-      name: "Spotify Clone",
-      smallGif: "/projects/spotify_clone_small.gif",
-      largeGif: "/projects/spotify_clone_large.gif",
-      githubLink: "https://github.com/AshikurRahman3/spotify-clone",
-      liveLink: "https://spotify-clone-1s.netlify.app/",
-      description: "A music streaming app with features like search, playlist creation, and managing liked songs.",
+      name: "Quick Basket",
+      smallGif: "/projects/quick_basket_demo_video_main_medium.gif",
+      largeVideo: "/projects/quick_basket_demo_video_main.mp4",
+      githubLink: "https://github.com/AshikurRahman3/quick-basket",
+      liveLink: "#",
+      description: <>Quick Basket is an e-commerce platform enabling users to browse and buy products from specialized shops (Fish, Meat, Vegetables, Fruit, Grocery) with filters for shop type and city. Built with <b>Node.js, Express.js, and MongoDB</b>, it offers a dynamic UI and single-shop checkout for a seamless experience</>,
     },
     {
       id: 2,
-      name: "Realtime Chatrooms",
-      smallGif: "/projects/chat.gif",
-      largeGif: "/projects/chat.gif",
-      githubLink: "https://github.com/AshikurRahman3/chat-app",
-      liveLink: "https://realtime-chatroomss.netlify.app/",
-      description: "A real-time chat app built with React, Node.js, and Socket.io for seamless communication.",
+      name: "University Book Management System",
+      smallGif: "/projects/university_book_management_system_main_medium.gif",
+      largeVideo: "/projects/university_book_management_system_main.mp4",
+      githubLink: "https://github.com/AshikurRahman3/university_book_management_system",
+      liveLink: "#",
+      description: <>SUST Book Portal is a <b>Django-based</b> university book management system with <b>admin</b> controls, allowing teachers to manage semester-wise books with image uploads, using <b>MySQL</b> and <b>Pillow</b>.</>,
     },
-    {
-      id: 3,
-      name: "E-Commerce Web App",
-      smallGif: "/projects/ecommerce_small.gif",
-      largeGif: "/projects/ecommerce_large.gif",
-      githubLink: "https://github.com/AshikurRahman3/ecommerce",
-      liveLink: "https://e-commerce-app-test.netlify.app/",
-      description: "A full-stack e-commerce app built with the MERN stack and Redux, featuring cloud deployment.",
-    },
+
     {
       id: 4,
       name: "Calorie Analysis",
       smallGif: "/projects/calorie_analysis_small.gif",
       largeGif: "/projects/calorie_analysis_large.gif",
       githubLink: "https://github.com/AshikurRahman3/Calorie-Analysis-",
-      description: "An Android app to track calories, calculate BMI, and support fitness goals.",
+      description: <>Calorie Analysis is an <b>Android</b> app <b>(Java)</b> that helps users monitor calorie intake, calculate BMI, and track fitness progress with <b>Firebase</b> for data storage. It features Google Sign-In, global user rankings, and intuitive navigation with fragments, RecyclerView, and multiple food categories.</>,
     },
     {
       id: 5,
@@ -53,7 +46,7 @@ function Portfolio() {
       smallGif: "/projects/bangladeshi_vehicle_counter.gif",
       largeVideo: "/projects/bangladeshi_vehicle_counter.mp4",
       githubLink: "https://github.com/AshikurRahman3/Bangladeshi-Vehicle-Counter",
-      description: "A real-time vehicle detection tool using YOLOv8n to count vehicles in Bangladesh.",
+      description: <>It is a real-time traffic analysis tool using <b>YOLOv8</b> and <b>OpenCV</b> to detect and count <b>18 vehicle types</b>, achieving <b> 0.664 mAP accuracy</b>. Developed in Python with Google Colab, it provides traffic insights through precision-recall metrics and confusion matrices.</>,
     },
   ];
 
@@ -114,6 +107,7 @@ function Portfolio() {
                   >
                     View on GitHub
                   </button>
+                  {/*  
                   {project.id < 4 && (
                     <button
                       onClick={(e) => {
@@ -125,6 +119,9 @@ function Portfolio() {
                       View Live
                     </button>
                   )}
+
+                  */}
+
                 </div>
 
               </div>

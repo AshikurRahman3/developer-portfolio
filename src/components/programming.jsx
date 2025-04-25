@@ -11,6 +11,10 @@ function Programming() {
             link: "https://leetcode.com/u/user3224FJ/",
         },
         {
+            platform: "HackerRank",
+            link: "https://www.hackerrank.com/profile/ashik9656",
+        },
+        {
             platform: "SPOJ",
             link: "https://www.spoj.com/users/ashik9656/",
         },
@@ -18,10 +22,7 @@ function Programming() {
             platform: "UVa Online Judge",
             link: "https://uhunt.onlinejudge.org/id/944427",
         },
-        {
-            platform: "HackerRank",
-            link: "https://www.hackerrank.com/profile/ashik9656",
-        },
+
     ];
 
     return (
@@ -34,7 +35,7 @@ function Programming() {
                     Competitive Programming
                 </h2>
                 <p className="text-center text-gray-700 mb-6">
-                    I have solved over 200 problems across various platforms, showcasing
+                    I have solved <b><big>300+</big></b> problems across various platforms, showcasing
                     my problem-solving and algorithmic skills. Participated in multiple <b>ACM ICPC Dhaka Regional Preliminaries</b>.
                 </p>
                 <div className="flex flex-wrap flex-col md:flex-row md:justify-center md:gap-4 gap-4">
