@@ -23,7 +23,7 @@ function Footer() {
               <a href="https://github.com/AshikurRahman3" target="_blank" rel="noopener noreferrer">
                 <FiGithub size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/ashikur-rahman-838a07206/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ashikurrahman3" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn size={24} />
               </a>
             </div>

@@ -56,7 +56,7 @@ function Home() {
 
                   <ul className="flex space-x-5">
                     <li>
-                      <a href="https://www.linkedin.com/in/ashikur-rahman-838a07206/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/ashikurrahman3" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="text-2xl cursor-pointer" />
                       </a>
                     </li>

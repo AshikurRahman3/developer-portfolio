@@ -36,7 +36,7 @@ function Contact() {
                 GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/ashikur-rahman-838a07206/"
+                href="https://www.linkedin.com/in/ashikurrahman3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal-500 hover:text-teal-700"
