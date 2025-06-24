@@ -35,7 +35,7 @@ function Portfolio() {
     {
       id: 3,
       name: "University Book Management System",
-      smallGif: "/projects/university_book_management_system_main_medium.gif",
+      smallGif: "/projects/university_book_management_system_main_large2.gif",
       largeVideo: "/projects/university_book_management_system_main.mp4",
       githubLink: "https://github.com/AshikurRahman3/university_book_management_system",
       liveLink: "#",
@@ -54,7 +54,7 @@ function Portfolio() {
     {
       id: 5,
       name: "Bangladeshi Vehicle Counter",
-      smallGif: "/projects/bangladeshi_vehicle_counter.gif",
+      smallGif: "/projects/bangladeshi_vehicle_counter_large2.gif",
       largeVideo: "/projects/bangladeshi_vehicle_counter.mp4",
       githubLink: "https://github.com/AshikurRahman3/Bangladeshi-Vehicle-Counter",
       liveLink: "#",
