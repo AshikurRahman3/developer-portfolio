@@ -29,7 +29,7 @@ function Portfolio() {
       smallGif: "/projects/quick_basket_demo_video_main_large2.gif",
       largeVideo: "/projects/quick_basket_demo_video_main.mp4",
       githubLink: "https://github.com/AshikurRahman3/quick-basket",
-      liveLink: "#",
+      liveLink: "https://quick-basket-uqmr.onrender.com/",
       description: <>Quick Basket is an e-commerce platform enabling users to browse and buy products from specialized shops (Fish, Meat, Vegetables, Fruit, Grocery) with filters for shop type and city. Built with <b>Node.js, Express.js, and MongoDB</b>, it offers a dynamic UI and single-shop checkout for a seamless experience</>,
     },
     {
@@ -45,7 +45,7 @@ function Portfolio() {
     {
       id: 4,
       name: "Calorie Analysis",
-      smallGif: "/projects/calorie_analysis_small.gif",
+      smallGif: "/projects/calorie_analysis_large.gif",
       largeGif: "/projects/calorie_analysis_large.gif",
       githubLink: "https://github.com/AshikurRahman3/Calorie-Analysis-",
       liveLink: "#",
@@ -119,7 +119,7 @@ function Portfolio() {
                         handleLinkClick(e);
                         window.open(project.liveLink, "_blank");
                       }}
-                      className="bg-teal-500 text-white text-sm md:text-base py-2 px-3 md:px-4 rounded-md hover:bg-teal-600 hover:text-white transition-all"
+                      className="bg-green-500 text-white text-sm md:text-base py-2 px-3 md:px-4 rounded-md hover:bg-blue-600 hover:text-white transition-all"
                     >
                       View Live
                     </button>
