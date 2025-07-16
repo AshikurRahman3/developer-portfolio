@@ -51,7 +51,7 @@ function Portfolio() {
     {
       id: 5,
       name: "Calorie Analysis",
-      smallGif: "/projects/calorie_analysis_large.gif",
+      smallGif: "/projects/calorie_analysis_small.gif",
       largeGif: "/projects/calorie_analysis_large.gif",
       githubLink: "https://github.com/AshikurRahman3/Calorie-Analysis-",
       liveLink: "#",
