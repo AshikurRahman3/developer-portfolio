@@ -18,11 +18,12 @@ function App() {
       <div>
         <Navbar />
         <Home />
+        <PortFolio />
         <Skills />
         <Education />
         <Programming />
 
-        <PortFolio />
+        
 
         <Contact />
         <Footer />

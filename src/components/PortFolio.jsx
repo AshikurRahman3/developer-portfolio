@@ -12,26 +12,9 @@ function Portfolio() {
   };
 
   const projects = [
+    
     {
       id: 1,
-      name: "Ai Resume Maker",
-      smallGif: "/projects/ai_resume_maker.mp4",
-      largeVideo: "/projects/ai_resume_maker.mp4",
-      githubLink: "https://github.com/AshikurRahman3/ai-resume-maker",
-      liveLink: "https://ashikurs-ai-resume-maker.vercel.app/",
-      description: <>AI Resume Maker is a MERN full-stack application for creating, editing, and managing resumes with AI assistance. Built using <b>React.js, Redux Toolkit, Node.js, Express.js, and MongoDB</b>, it includes <b>JWT</b> authentication, live preview, and AI-powered summary suggestions for multiple saved resumes.</>,
-    },
-    {
-      id: 2,
-      name: "Dine POS",
-      smallGif: "/projects/pos_original2.mp4",
-      largeVideo: "/projects/pos_original2.mp4",
-      githubLink: "https://github.com/AshikurRahman3/dine-pos",
-      liveLink: "https://dine-pos.vercel.app",
-      description: <>Dine POS is a Mern full-stack Point of Sale system for managing item selection, orders, billing, and customer records. Developed with <b>React.js, Redux, Node.js, Express.js, and MongoDB</b>, it features user <b>JWT</b> authentication and smooth cart-based order processing.</>,
-    },
-    {
-      id: 3,
       name: "Quick Basket",
       smallGif: "/projects/quick_basket_demo_video_main.mp4",
       largeVideo: "/projects/quick_basket_demo_video_main.mp4",
@@ -40,7 +23,7 @@ function Portfolio() {
       description: <>Quick Basket is an e-commerce platform enabling users to browse and buy products from specialized shops (Fish, Meat, Vegetables, Fruit, Grocery) with filters for shop type and city. Built with <b>Node.js, Express.js, and MongoDB</b>, it offers a dynamic UI and single-shop checkout for a seamless experience</>,
     },
     {
-      id: 4,
+      id: 2,
       name: "University Book Management System",
       smallGif: "/projects/university_book_management_system_main.mp4",
       largeVideo: "/projects/university_book_management_system_main.mp4",
@@ -48,17 +31,9 @@ function Portfolio() {
       liveLink: "#",
       description: <>SUST Book Portal is a <b>Django-based</b> university book management system with <b>admin</b> controls, allowing teachers to manage semester-wise books with image uploads, using <b>MySQL</b> and <b>Pillow</b>.</>,
     },
+    
     {
-      id: 5,
-      name: "Calorie Analysis",
-      smallGif: "/projects/calorie_analysis_small.gif",
-      largeGif: "/projects/calorie_analysis_large.gif",
-      githubLink: "https://github.com/AshikurRahman3/Calorie-Analysis-",
-      liveLink: "#",
-      description: <>Calorie Analysis is an <b>Android</b> app <b>(Java)</b> that helps users monitor calorie intake, calculate BMI, and track fitness progress with <b>Firebase</b> for data storage. It features Google Sign-In, global user rankings, and intuitive navigation with fragments, RecyclerView, and multiple food categories.</>,
-    },
-    {
-      id: 6,
+      id: 3,
       name: "Bangladeshi Vehicle Counter",
       smallGif: "/projects/bangladeshi_vehicle_counter.mp4",
       largeVideo: "/projects/bangladeshi_vehicle_counter.mp4",
@@ -66,6 +41,33 @@ function Portfolio() {
       liveLink: "#",
       description: <>It is a real-time traffic analysis tool using <b>YOLOv8</b> and <b>OpenCV</b> to detect and count <b>18 vehicle types</b>, achieving <b>0.664 mAP accuracy</b>. Developed in Python with Google Colab, it provides traffic insights through precision-recall metrics and confusion matrices.</>,
     },
+    {
+      id: 4,
+      name: "Calorie Analysis",
+      smallGif: "/projects/calorie_analysis_video.mp4",
+      largeVideo: "/projects/calorie_analysis_video.mp4",
+      githubLink: "https://github.com/AshikurRahman3/Calorie-Analysis-",
+      liveLink: "#",
+      description: <>Calorie Analysis is an <b>Android</b> app <b>(Java)</b> that helps users monitor calorie intake, calculate BMI, and track fitness progress with <b>Firebase</b> for data storage. It features Google Sign-In, global user rankings, and intuitive navigation with fragments, RecyclerView, and multiple food categories.</>,
+    },
+    {
+      id: 5,
+      name: "Ai Resume Maker",
+      smallGif: "/projects/ai_resume_maker.mp4",
+      largeVideo: "/projects/ai_resume_maker.mp4",
+      githubLink: "https://github.com/AshikurRahman3/ai-resume-maker",
+      liveLink: "https://ashikurs-ai-resume-maker.vercel.app/",
+      description: <>AI Resume Maker is a MERN full-stack application for creating, editing, and managing resumes with AI assistance. Built using <b>React.js, Redux Toolkit, Node.js, Express.js, and MongoDB</b>, it includes <b>JWT</b> authentication, live preview, and AI-powered summary suggestions for multiple saved resumes.</>,
+    },
+    {
+      id: 6,
+      name: "Dine POS",
+      smallGif: "/projects/pos_original2.mp4",
+      largeVideo: "/projects/pos_original2.mp4",
+      githubLink: "https://github.com/AshikurRahman3/dine-pos",
+      liveLink: "https://dine-pos.vercel.app",
+      description: <>Dine POS is a Mern full-stack Point of Sale system for managing item selection, orders, billing, and customer records. Developed with <b>React.js, Redux, Node.js, Express.js, and MongoDB</b>, it features user <b>JWT</b> authentication and smooth cart-based order processing.</>,
+    }
   ];
 
   const handleLinkClick = (e) => {

@@ -8,7 +8,7 @@ function Programming() {
         },
         {
             platform: "LeetCode",
-            link: "https://leetcode.com/u/user3224FJ/",
+            link: "https://leetcode.com/u/ashikurrahman3/",
         },
         {
             platform: "HackerRank",

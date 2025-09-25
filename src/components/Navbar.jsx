@@ -7,10 +7,11 @@ function Navbar() {
   const [menu, setMenu] = useState(false);
   const navItems = [
     { id: 1, text: "Home" },
-    { id: 2, text: "Skills" },
-    { id: 3, text: "Education" },
-    { id: 4, text: "Competitive Programming" }, // New Link
-    { id: 5, text: "Projects" },
+    { id: 2, text: "Projects" },
+    { id: 3, text: "Skills" },
+    { id: 4, text: "Education" },
+    { id: 5, text: "Competitive Programming" }, // New Link
+    
     { id: 6, text: "Contact" },
   ];
 
